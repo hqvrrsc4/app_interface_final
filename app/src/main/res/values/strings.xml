@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">蓝牙钥匙</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="welcome_login">Welcome to UAES Vehicle Management System</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="age">Age(please enter a number...)</string>
+    <string name="email">Email</string>
+</resources>

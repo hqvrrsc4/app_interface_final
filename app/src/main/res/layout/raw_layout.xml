@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_username"
+        android:layout_alignParentLeft="true"
+        android:text="Prabeesh"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="-25dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_vid"
+        android:layout_toRightOf="@id/tx_username"
+        android:text="Prabeesh"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="-25dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_fuel"
+        android:layout_toRightOf="@id/tx_vid"
+        android:text="Prabeesh"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="-25dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_window"
+        android:layout_alignParentLeft="true"
+        android:text="Prabeesh"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_ac"
+        android:layout_toRightOf="@id/tx_window"
+        android:text="Prabeesh"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tx_tailgate"
+        android:layout_toRightOf="@id/tx_ac"
+        android:text="空调：26摄氏度"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="25dp"
+        />
+
+</RelativeLayout>
